@@ -1,0 +1,163 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+   
+}
+
+.titulo2 {
+    font-size: 30px;
+    color: #000000;
+    max-width: 1200px;
+	margin: auto;
+    text-align: center;
+    padding: 50px 0;
+    display: grid;
+  
+
+
+}
+
+.rojo{
+    color: #ff4800;
+}
+
+.imagen2{
+    width: 400px;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 120px;
+    margin: 20px 0;
+    height: 400px;
+    padding: 10px;
+ 
+}
+
+
+.barra {
+    background-color: #56575e;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+
+
+.contenedor1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 10px; 
+    background-color: rgb(255, 255, 255);
+}
+
+.boton {
+    background: #ff3c01;
+    width: 30%; 
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    justify-self: center; 
+}
+
+
+
+.contenedor2 {
+ background-color: rgb(255, 72, 39);
+ justify-content: center;
+ text-align: center;
+ font-family: 'Roboto', sans-serif;
+ font-size: 50px;
+ color: #ffffff;
+ padding: px 0;
+
+}
+
+.titulo3 {
+    font-size: 50px;
+    color: #111044ef;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+  
+}
+
+.contenedor4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    max-width: 100%; 
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #5a4c4c;
+    gap: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor4 > div {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.boton2{
+    background: #ff4800;
+	display: block;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.nombre{
+    font-style: italic;
+    font-size: 35px;
+}
+
+.barra2 {
+    background-color: #131316;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  30px;
+}
+.titulo{
+    margin-left: 1230px
+}
